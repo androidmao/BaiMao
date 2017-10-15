@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA48602D1F92FFF000924A60 /* HYTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA48602C1F92FFF000924A60 /* HYTableViewController.m */; };
+		DA4860351F93095A00924A60 /* HYTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4860341F93095A00924A60 /* HYTableViewCell.m */; };
 		DA8FF1CC1F7E997B00BAB610 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8FF1CB1F7E997B00BAB610 /* main.m */; };
 		DA8FF1CF1F7E997B00BAB610 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8FF1CE1F7E997B00BAB610 /* AppDelegate.m */; };
 		DA8FF1D21F7E997B00BAB610 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8FF1D11F7E997B00BAB610 /* ViewController.m */; };
@@ -35,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DA48602B1F92FFF000924A60 /* HYTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYTableViewController.h; sourceTree = "<group>"; };
+		DA48602C1F92FFF000924A60 /* HYTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYTableViewController.m; sourceTree = "<group>"; };
+		DA4860331F93095A00924A60 /* HYTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYTableViewCell.h; sourceTree = "<group>"; };
+		DA4860341F93095A00924A60 /* HYTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYTableViewCell.m; sourceTree = "<group>"; };
 		DA8FF1C71F7E997B00BAB610 /* Baimao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Baimao.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA8FF1CB1F7E997B00BAB610 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DA8FF1CD1F7E997B00BAB610 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -110,6 +116,10 @@
 				DA8FF1D81F7E997B00BAB610 /* LaunchScreen.storyboard */,
 				DA8FF1DB1F7E997B00BAB610 /* Info.plist */,
 				DA8FF1CA1F7E997B00BAB610 /* Supporting Files */,
+				DA48602B1F92FFF000924A60 /* HYTableViewController.h */,
+				DA48602C1F92FFF000924A60 /* HYTableViewController.m */,
+				DA4860331F93095A00924A60 /* HYTableViewCell.h */,
+				DA4860341F93095A00924A60 /* HYTableViewCell.m */,
 			);
 			path = Baimao;
 			sourceTree = "<group>";
@@ -280,7 +290,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA8FF1D21F7E997B00BAB610 /* ViewController.m in Sources */,
+				DA4860351F93095A00924A60 /* HYTableViewCell.m in Sources */,
 				DA8FF1CF1F7E997B00BAB610 /* AppDelegate.m in Sources */,
+				DA48602D1F92FFF000924A60 /* HYTableViewController.m in Sources */,
 				DA8FF1CC1F7E997B00BAB610 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -517,6 +529,7 @@
 				DA8FF1F61F7E997B00BAB610 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA8FF1F71F7E997B00BAB610 /* Build configuration list for PBXNativeTarget "BaimaoTests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +538,7 @@
 				DA8FF1F91F7E997B00BAB610 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA8FF1FA1F7E997B00BAB610 /* Build configuration list for PBXNativeTarget "BaimaoUITests" */ = {
 			isa = XCConfigurationList;
@@ -533,6 +547,7 @@
 				DA8FF1FC1F7E997B00BAB610 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
