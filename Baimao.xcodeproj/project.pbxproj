@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		DA48602D1F92FFF000924A60 /* HYTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA48602C1F92FFF000924A60 /* HYTableViewController.m */; };
 		DA4860351F93095A00924A60 /* HYTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4860341F93095A00924A60 /* HYTableViewCell.m */; };
+		DA4860381F9B5C8B00924A60 /* HYSegmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4860371F9B5C8B00924A60 /* HYSegmentViewController.m */; };
+		DA4F538A214E56A00002C13C /* HYChatTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4F5388214E56A00002C13C /* HYChatTableViewCell.m */; };
+		DA4F538B214E56A00002C13C /* HYChatTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA4F5389214E56A00002C13C /* HYChatTableViewCell.xib */; };
+		DA4F5394214E62830002C13C /* HYChatToTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4F5392214E62830002C13C /* HYChatToTableViewCell.m */; };
+		DA4F5395214E62830002C13C /* HYChatToTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA4F5393214E62830002C13C /* HYChatToTableViewCell.xib */; };
+		DA50FF231FB1FC4000F01B8D /* Push1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA50FF221FB1FC4000F01B8D /* Push1ViewController.m */; };
+		DA50FF261FB20AD700F01B8D /* Push2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA50FF251FB20AD700F01B8D /* Push2ViewController.m */; };
 		DA8FF1CC1F7E997B00BAB610 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8FF1CB1F7E997B00BAB610 /* main.m */; };
 		DA8FF1CF1F7E997B00BAB610 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8FF1CE1F7E997B00BAB610 /* AppDelegate.m */; };
 		DA8FF1D21F7E997B00BAB610 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8FF1D11F7E997B00BAB610 /* ViewController.m */; };
@@ -41,6 +48,18 @@
 		DA48602C1F92FFF000924A60 /* HYTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYTableViewController.m; sourceTree = "<group>"; };
 		DA4860331F93095A00924A60 /* HYTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYTableViewCell.h; sourceTree = "<group>"; };
 		DA4860341F93095A00924A60 /* HYTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYTableViewCell.m; sourceTree = "<group>"; };
+		DA4860361F9B5C8B00924A60 /* HYSegmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYSegmentViewController.h; sourceTree = "<group>"; };
+		DA4860371F9B5C8B00924A60 /* HYSegmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYSegmentViewController.m; sourceTree = "<group>"; };
+		DA4F5387214E56A00002C13C /* HYChatTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYChatTableViewCell.h; sourceTree = "<group>"; };
+		DA4F5388214E56A00002C13C /* HYChatTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYChatTableViewCell.m; sourceTree = "<group>"; };
+		DA4F5389214E56A00002C13C /* HYChatTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HYChatTableViewCell.xib; sourceTree = "<group>"; };
+		DA4F5391214E62830002C13C /* HYChatToTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYChatToTableViewCell.h; sourceTree = "<group>"; };
+		DA4F5392214E62830002C13C /* HYChatToTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYChatToTableViewCell.m; sourceTree = "<group>"; };
+		DA4F5393214E62830002C13C /* HYChatToTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HYChatToTableViewCell.xib; sourceTree = "<group>"; };
+		DA50FF211FB1FC4000F01B8D /* Push1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Push1ViewController.h; sourceTree = "<group>"; };
+		DA50FF221FB1FC4000F01B8D /* Push1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Push1ViewController.m; sourceTree = "<group>"; };
+		DA50FF241FB20AD700F01B8D /* Push2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Push2ViewController.h; sourceTree = "<group>"; };
+		DA50FF251FB20AD700F01B8D /* Push2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Push2ViewController.m; sourceTree = "<group>"; };
 		DA8FF1C71F7E997B00BAB610 /* Baimao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Baimao.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA8FF1CB1F7E997B00BAB610 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DA8FF1CD1F7E997B00BAB610 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -120,6 +139,18 @@
 				DA48602C1F92FFF000924A60 /* HYTableViewController.m */,
 				DA4860331F93095A00924A60 /* HYTableViewCell.h */,
 				DA4860341F93095A00924A60 /* HYTableViewCell.m */,
+				DA4860361F9B5C8B00924A60 /* HYSegmentViewController.h */,
+				DA4860371F9B5C8B00924A60 /* HYSegmentViewController.m */,
+				DA50FF211FB1FC4000F01B8D /* Push1ViewController.h */,
+				DA50FF221FB1FC4000F01B8D /* Push1ViewController.m */,
+				DA50FF241FB20AD700F01B8D /* Push2ViewController.h */,
+				DA50FF251FB20AD700F01B8D /* Push2ViewController.m */,
+				DA4F5387214E56A00002C13C /* HYChatTableViewCell.h */,
+				DA4F5388214E56A00002C13C /* HYChatTableViewCell.m */,
+				DA4F5389214E56A00002C13C /* HYChatTableViewCell.xib */,
+				DA4F5391214E62830002C13C /* HYChatToTableViewCell.h */,
+				DA4F5392214E62830002C13C /* HYChatToTableViewCell.m */,
+				DA4F5393214E62830002C13C /* HYChatToTableViewCell.xib */,
 			);
 			path = Baimao;
 			sourceTree = "<group>";
@@ -262,8 +293,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA4F538B214E56A00002C13C /* HYChatTableViewCell.xib in Resources */,
 				DA8FF1DA1F7E997B00BAB610 /* LaunchScreen.storyboard in Resources */,
 				DA8FF1D71F7E997B00BAB610 /* Assets.xcassets in Resources */,
+				DA4F5395214E62830002C13C /* HYChatToTableViewCell.xib in Resources */,
 				DA8FF1D51F7E997B00BAB610 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,9 +323,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA8FF1D21F7E997B00BAB610 /* ViewController.m in Sources */,
+				DA50FF261FB20AD700F01B8D /* Push2ViewController.m in Sources */,
+				DA4860381F9B5C8B00924A60 /* HYSegmentViewController.m in Sources */,
+				DA4F5394214E62830002C13C /* HYChatToTableViewCell.m in Sources */,
 				DA4860351F93095A00924A60 /* HYTableViewCell.m in Sources */,
+				DA4F538A214E56A00002C13C /* HYChatTableViewCell.m in Sources */,
 				DA8FF1CF1F7E997B00BAB610 /* AppDelegate.m in Sources */,
 				DA48602D1F92FFF000924A60 /* HYTableViewController.m in Sources */,
+				DA50FF231FB1FC4000F01B8D /* Push1ViewController.m in Sources */,
 				DA8FF1CC1F7E997B00BAB610 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -444,7 +482,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 34ELH2Z8W9;
 				INFOPLIST_FILE = Baimao/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gokit.Baimao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -457,7 +495,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 34ELH2Z8W9;
 				INFOPLIST_FILE = Baimao/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gokit.Baimao;
 				PRODUCT_NAME = "$(TARGET_NAME)";

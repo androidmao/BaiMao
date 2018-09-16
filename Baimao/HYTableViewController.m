@@ -8,6 +8,10 @@
 
 #import "HYTableViewController.h"
 #import "HYTableViewCell.h"
+#import "HYSegmentViewController.h"
+
+#import "HYChatTableViewCell.h"
+#import "HYChatToTableViewCell.h"
 
 @interface HYTableViewController ()
 
@@ -19,6 +23,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+
+
+    [self.tableView setEstimatedRowHeight:64];
+    [self.tableView setRowHeight:UITableViewAutomaticDimension];
+
+    [self.tableView registerNib:[UINib nibWithNibName:@"HYChatTableViewCell" bundle:nil] forCellReuseIdentifier:KHYChatTableViewCell];
+    [self.tableView registerNib:[UINib nibWithNibName:@"HYChatToTableViewCell" bundle:nil] forCellReuseIdentifier:KHYChatToTableViewCell];
 
     _arrData = [[NSMutableArray alloc]init];
 
@@ -78,85 +89,105 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Incomplete implementation, return the number of sections
     return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete implementation, return the number of rows
     return _arrData.count;
 }
 
-- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
-
-    NSString *text = [_arrData objectAtIndex:indexPath.row];
-
-    CGSize size = [self sizeOfTextWithMaxSize:CGSizeMake(200, MAXFLOAT) forFont:[UIFont systemFontOfSize:15.0] andText:text];
-
-    if (size.height > 40) {
-        return 24 + size.height;
-    }
-
-    return 64;
-}
+//- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+//
+//    NSString *text = [_arrData objectAtIndex:indexPath.row];
+//
+//    CGSize size = [self sizeOfTextWithMaxSize:CGSizeMake(200, MAXFLOAT) forFont:[UIFont systemFontOfSize:15.0] andText:text];
+//
+//    if (size.height > 40) {
+//        return 24 + size.height;
+//    }
+//
+//    return 64;
+//}
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-//    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"table_cell" forIndexPath:indexPath];
 
-    HYTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"table_cell1"];
-    if (!cell) {
-        cell = [[HYTableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"table_cell1"];
-    }
 
-    [cell setSelectionStyle:UITableViewCellSelectionStyleNone];
+//    HYTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"table_cell1"];
+//    if (!cell) {
+//        cell = [[HYTableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"table_cell1"];
+//    }
+//
+//    [cell setSelectionStyle:UITableViewCellSelectionStyleNone];
 
     NSString *text = [_arrData objectAtIndex:indexPath.row];
-
-
-
-    [cell.contentLabel setText:text];
-
-
     if ((indexPath.row % 2) == 0) {
 
-        CGSize size = [self sizeOfTextWithMaxSize:CGSizeMake(200, MAXFLOAT) forFont:[UIFont systemFontOfSize:15.0] andText:text];
+        HYChatTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:KHYChatTableViewCell forIndexPath:indexPath];
+        [cell.chatContentLabel setText:text];
 
-        if (size.height > 40) {
+        return cell;
 
-            [cell.contentLabel setFrame:CGRectMake(60, 12, size.width, size.height)];
+    } else {
 
-        } else {
+        HYChatToTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:KHYChatToTableViewCell forIndexPath:indexPath];
+        [cell.chatContentLabel setText:text];
 
-            [cell.contentLabel setFrame:CGRectMake(60, 12, size.width, 40)];
-            
-        }
-
-        [cell.avatarImageView setFrame:CGRectMake(10, 10, 40, 40)];
-
-    }else{
-
-
-        CGSize size = [self sizeOfTextWithMaxSize:CGSizeMake(200, MAXFLOAT) forFont:[UIFont systemFontOfSize:15.0] andText:text];
-
-        if (size.height > 40) {
-
-            [cell.contentLabel setFrame:CGRectMake((320 - size.width - 60), 12, size.width, size.height)];
-
-        } else {
-
-            [cell.contentLabel setFrame:CGRectMake((320 - size.width - 60), 12, size.width, 40)];
-            
-        }
-
-        [cell.avatarImageView setFrame:CGRectMake(270, 10, 40, 40)];
+        return cell;
 
     }
 
-    return cell;
+
+
+
+
+
+
+
+//    [cell.contentLabel setText:text];
+
+
+//    if ((indexPath.row % 2) == 0) {
+//
+//        CGSize size = [self sizeOfTextWithMaxSize:CGSizeMake(200, MAXFLOAT) forFont:[UIFont systemFontOfSize:15.0] andText:text];
+//
+//        if (size.height > 40) {
+//
+//            [cell.contentLabel setFrame:CGRectMake(60, 12, size.width, size.height)];
+//
+//        } else {
+//
+//            [cell.contentLabel setFrame:CGRectMake(60, 12, size.width, 40)];
+//
+//        }
+//
+//        [cell.avatarImageView setFrame:CGRectMake(10, 10, 40, 40)];
+//
+//    }else{
+//
+//
+//        CGSize size = [self sizeOfTextWithMaxSize:CGSizeMake(200, MAXFLOAT) forFont:[UIFont systemFontOfSize:15.0] andText:text];
+//
+//        if (size.height > 40) {
+//
+//            [cell.contentLabel setFrame:CGRectMake((320 - size.width - 60), 12, size.width, size.height)];
+//
+//        } else {
+//
+//            [cell.contentLabel setFrame:CGRectMake((320 - size.width - 60), 12, size.width, 40)];
+//
+//        }
+//
+//        [cell.avatarImageView setFrame:CGRectMake(270, 10, 40, 40)];
+//
+//    }
+
+
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+//    [self presentViewController:[[HYSegmentViewController alloc]init] animated:YES completion:nil];
+
 }
 
 
