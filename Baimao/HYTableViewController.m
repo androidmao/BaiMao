@@ -9,6 +9,7 @@
 #import "HYTableViewController.h"
 #import "HYTableViewCell.h"
 #import "HYSegmentViewController.h"
+#import "GalleryViewController.h"
 
 #import "HYChatTableViewCell.h"
 #import "HYChatToTableViewCell.h"
@@ -187,6 +188,8 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
 //    [self presentViewController:[[HYSegmentViewController alloc]init] animated:YES completion:nil];
+
+    [self presentViewController:[[GalleryViewController alloc]init] animated:YES completion:nil];
 
 }
 

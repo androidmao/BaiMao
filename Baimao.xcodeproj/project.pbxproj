@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C2CC92EE2F3E141FC94B276 /* libPods-Baimao.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70643EF181C1E80409C4BC19 /* libPods-Baimao.a */; };
 		DA48602D1F92FFF000924A60 /* HYTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA48602C1F92FFF000924A60 /* HYTableViewController.m */; };
 		DA4860351F93095A00924A60 /* HYTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4860341F93095A00924A60 /* HYTableViewCell.m */; };
 		DA4860381F9B5C8B00924A60 /* HYSegmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4860371F9B5C8B00924A60 /* HYSegmentViewController.m */; };
@@ -14,6 +15,10 @@
 		DA4F538B214E56A00002C13C /* HYChatTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA4F5389214E56A00002C13C /* HYChatTableViewCell.xib */; };
 		DA4F5394214E62830002C13C /* HYChatToTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4F5392214E62830002C13C /* HYChatToTableViewCell.m */; };
 		DA4F5395214E62830002C13C /* HYChatToTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA4F5393214E62830002C13C /* HYChatToTableViewCell.xib */; };
+		DA4F5399214FE1720002C13C /* GalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4F5397214FE1720002C13C /* GalleryViewController.m */; };
+		DA4F539A214FE1720002C13C /* GalleryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA4F5398214FE1720002C13C /* GalleryViewController.xib */; };
+		DA4F539E214FE3CF0002C13C /* GralleryCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4F539C214FE3CF0002C13C /* GralleryCollectionViewCell.m */; };
+		DA4F539F214FE3CF0002C13C /* GralleryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA4F539D214FE3CF0002C13C /* GralleryCollectionViewCell.xib */; };
 		DA50FF231FB1FC4000F01B8D /* Push1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA50FF221FB1FC4000F01B8D /* Push1ViewController.m */; };
 		DA50FF261FB20AD700F01B8D /* Push2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA50FF251FB20AD700F01B8D /* Push2ViewController.m */; };
 		DA8FF1CC1F7E997B00BAB610 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8FF1CB1F7E997B00BAB610 /* main.m */; };
@@ -44,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		37096A14A0FDFD74808BA7DA /* Pods-Baimao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Baimao.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Baimao/Pods-Baimao.debug.xcconfig"; sourceTree = "<group>"; };
+		70643EF181C1E80409C4BC19 /* libPods-Baimao.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Baimao.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA48602B1F92FFF000924A60 /* HYTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYTableViewController.h; sourceTree = "<group>"; };
 		DA48602C1F92FFF000924A60 /* HYTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYTableViewController.m; sourceTree = "<group>"; };
 		DA4860331F93095A00924A60 /* HYTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYTableViewCell.h; sourceTree = "<group>"; };
@@ -56,6 +63,12 @@
 		DA4F5391214E62830002C13C /* HYChatToTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYChatToTableViewCell.h; sourceTree = "<group>"; };
 		DA4F5392214E62830002C13C /* HYChatToTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYChatToTableViewCell.m; sourceTree = "<group>"; };
 		DA4F5393214E62830002C13C /* HYChatToTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HYChatToTableViewCell.xib; sourceTree = "<group>"; };
+		DA4F5396214FE1720002C13C /* GalleryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GalleryViewController.h; sourceTree = "<group>"; };
+		DA4F5397214FE1720002C13C /* GalleryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GalleryViewController.m; sourceTree = "<group>"; };
+		DA4F5398214FE1720002C13C /* GalleryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GalleryViewController.xib; sourceTree = "<group>"; };
+		DA4F539B214FE3CF0002C13C /* GralleryCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GralleryCollectionViewCell.h; sourceTree = "<group>"; };
+		DA4F539C214FE3CF0002C13C /* GralleryCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GralleryCollectionViewCell.m; sourceTree = "<group>"; };
+		DA4F539D214FE3CF0002C13C /* GralleryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GralleryCollectionViewCell.xib; sourceTree = "<group>"; };
 		DA50FF211FB1FC4000F01B8D /* Push1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Push1ViewController.h; sourceTree = "<group>"; };
 		DA50FF221FB1FC4000F01B8D /* Push1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Push1ViewController.m; sourceTree = "<group>"; };
 		DA50FF241FB20AD700F01B8D /* Push2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Push2ViewController.h; sourceTree = "<group>"; };
@@ -76,6 +89,7 @@
 		DA8FF1EB1F7E997B00BAB610 /* BaimaoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaimaoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA8FF1EF1F7E997B00BAB610 /* BaimaoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaimaoUITests.m; sourceTree = "<group>"; };
 		DA8FF1F11F7E997B00BAB610 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4E2C9FD56E33C1717B7DE3D /* Pods-Baimao.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Baimao.release.xcconfig"; path = "Pods/Target Support Files/Pods-Baimao/Pods-Baimao.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C2CC92EE2F3E141FC94B276 /* libPods-Baimao.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +118,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		40BF6063EFEDF24C46C8DD89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70643EF181C1E80409C4BC19 /* libPods-Baimao.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8ED34F9B96FDA771FC19C21 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37096A14A0FDFD74808BA7DA /* Pods-Baimao.debug.xcconfig */,
+				E4E2C9FD56E33C1717B7DE3D /* Pods-Baimao.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DA8FF1BE1F7E997A00BAB610 = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +142,8 @@
 				DA8FF1E31F7E997B00BAB610 /* BaimaoTests */,
 				DA8FF1EE1F7E997B00BAB610 /* BaimaoUITests */,
 				DA8FF1C81F7E997B00BAB610 /* Products */,
+				D8ED34F9B96FDA771FC19C21 /* Pods */,
+				40BF6063EFEDF24C46C8DD89 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -151,6 +185,12 @@
 				DA4F5391214E62830002C13C /* HYChatToTableViewCell.h */,
 				DA4F5392214E62830002C13C /* HYChatToTableViewCell.m */,
 				DA4F5393214E62830002C13C /* HYChatToTableViewCell.xib */,
+				DA4F5396214FE1720002C13C /* GalleryViewController.h */,
+				DA4F5397214FE1720002C13C /* GalleryViewController.m */,
+				DA4F5398214FE1720002C13C /* GalleryViewController.xib */,
+				DA4F539B214FE3CF0002C13C /* GralleryCollectionViewCell.h */,
+				DA4F539C214FE3CF0002C13C /* GralleryCollectionViewCell.m */,
+				DA4F539D214FE3CF0002C13C /* GralleryCollectionViewCell.xib */,
 			);
 			path = Baimao;
 			sourceTree = "<group>";
@@ -188,9 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA8FF1F41F7E997B00BAB610 /* Build configuration list for PBXNativeTarget "Baimao" */;
 			buildPhases = (
+				FC4337C60EFE7F6EFCDD5951 /* [CP] Check Pods Manifest.lock */,
 				DA8FF1C31F7E997B00BAB610 /* Sources */,
 				DA8FF1C41F7E997B00BAB610 /* Frameworks */,
 				DA8FF1C51F7E997B00BAB610 /* Resources */,
+				27952F3076F4E1474F7980B9 /* [CP] Embed Pods Frameworks */,
+				71B77108061B65E9EE46F4E3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -294,8 +337,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA4F538B214E56A00002C13C /* HYChatTableViewCell.xib in Resources */,
+				DA4F539A214FE1720002C13C /* GalleryViewController.xib in Resources */,
 				DA8FF1DA1F7E997B00BAB610 /* LaunchScreen.storyboard in Resources */,
 				DA8FF1D71F7E997B00BAB610 /* Assets.xcassets in Resources */,
+				DA4F539F214FE3CF0002C13C /* GralleryCollectionViewCell.xib in Resources */,
 				DA4F5395214E62830002C13C /* HYChatToTableViewCell.xib in Resources */,
 				DA8FF1D51F7E997B00BAB610 /* Main.storyboard in Resources */,
 			);
@@ -317,18 +362,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		27952F3076F4E1474F7980B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Baimao/Pods-Baimao-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71B77108061B65E9EE46F4E3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Baimao/Pods-Baimao-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC4337C60EFE7F6EFCDD5951 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Baimao-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DA8FF1C31F7E997B00BAB610 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DA8FF1D21F7E997B00BAB610 /* ViewController.m in Sources */,
+				DA4F5399214FE1720002C13C /* GalleryViewController.m in Sources */,
 				DA50FF261FB20AD700F01B8D /* Push2ViewController.m in Sources */,
 				DA4860381F9B5C8B00924A60 /* HYSegmentViewController.m in Sources */,
 				DA4F5394214E62830002C13C /* HYChatToTableViewCell.m in Sources */,
 				DA4860351F93095A00924A60 /* HYTableViewCell.m in Sources */,
 				DA4F538A214E56A00002C13C /* HYChatTableViewCell.m in Sources */,
 				DA8FF1CF1F7E997B00BAB610 /* AppDelegate.m in Sources */,
+				DA4F539E214FE3CF0002C13C /* GralleryCollectionViewCell.m in Sources */,
 				DA48602D1F92FFF000924A60 /* HYTableViewController.m in Sources */,
 				DA50FF231FB1FC4000F01B8D /* Push1ViewController.m in Sources */,
 				DA8FF1CC1F7E997B00BAB610 /* main.m in Sources */,
@@ -478,6 +576,7 @@
 		};
 		DA8FF1F51F7E997B00BAB610 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37096A14A0FDFD74808BA7DA /* Pods-Baimao.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 34ELH2Z8W9;
@@ -491,6 +590,7 @@
 		};
 		DA8FF1F61F7E997B00BAB610 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4E2C9FD56E33C1717B7DE3D /* Pods-Baimao.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 34ELH2Z8W9;
